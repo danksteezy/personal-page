@@ -1,0 +1,31 @@
+$bioshadow: 0.2em 0 1em rgba(0, 0, 0, 0.31)
+$biobackground: #208220
+.bio
+  text-align: center
+  background-color: $biobackground
+  color: #fff
+  box-shadow: $bioshadow
+  padding: 1em
+
+ 
+
+  &-img
+    width: 15em
+    object-fit: contain
+    border-radius: 100%
+  &-img-cap
+    font-size: 2em
+    margin-top: 1em
+  &-roles
+    text-transform: uppercase
+    font-size: 1.2em
+    margin: 0
+    padding: 0
+    
+    li
+      display: inline-block
+  &-quote
+    font-size: 1.8em
+    font-style: italic
+    border-left: 0.2em solid
+    margin: 1em 0
