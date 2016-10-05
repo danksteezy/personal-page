@@ -1,0 +1,121 @@
+.bio {
+  text-align: center;
+  background-color: #208220;
+  color: #fff;
+  box-shadow: 0.2em 0 1em rgba(0, 0, 0, 0.31);
+  padding: 1em; }
+  .bio-img {
+    width: 15em;
+    object-fit: contain;
+    border-radius: 100%; }
+  .bio-img-cap {
+    font-size: 2em;
+    margin-top: 1em; }
+  .bio-roles {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0; }
+    .bio-roles li {
+      display: inline-block; }
+  .bio-quote {
+    font-size: 1.8em;
+    font-style: italic;
+    border-left: 0.2em solid;
+    margin: 1em 0; }
+
+body {
+  background: #CCFFFF;
+  font-family: Verdana, Geneva, sans-serif; }
+
+.container {
+  margin: 0 1em; }
+  @media only screen and (min-width: 45em) {
+    .container {
+      display: flex;
+      align-content: center; } }
+
+.banner {
+  flex: 1;
+  flex-grow: 1; }
+
+main {
+  flex: 2;
+  flex-grow: 5; }
+
+footer {
+  margin: 1em;
+  text-align: right; }
+
+.navigation-main {
+  background: #e61c3f;
+  box-shadow: 0.2em 0 1em rgba(0, 0, 0, 0.31);
+  margin: 0 1em;
+  padding-left: 0;
+  align-content: center; }
+  .navigation-main a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 50px; }
+  .navigation-main li {
+    display: inline-block;
+    padding: 10px 0; }
+  .navigation-main a:hover {
+    color: white;
+    background: #000; }
+
+.icon {
+  max-height: 50px; }
+
+.social-nav {
+  list-style: none;
+  padding: 0; }
+  .social-nav li {
+    display: inline-block; }
+
+.blog-container {
+  background: #fff;
+  padding: 2em;
+  box-sizing: border-box;
+  box-shadow: 0.2em 0 1em rgba(0, 0, 0, 0.31); }
+.blog-post-title {
+  font-size: 3em;
+  font-style: bold; }
+.blog-post-meta {
+  font-style: italic; }
+.blog-post-content {
+  margin-top: 2em;
+  line-height: 1.4; }
+
+.portfolio-container {
+  padding: 2em;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0.2em 0 1em rgba(0, 0, 0, 0.31); }
+  .portfolio-container h2 {
+    font-size: 3em; }
+  .portfolio-container p {
+    font-size: 2em; }
+  .portfolio-container .thumbnail {
+    border: thick solid #000;
+    max-width: 100%;
+    display: block;
+    margin: 2em auto; }
+
+.contact-container {
+  padding: 2em;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0.2em 0 1em rgba(0, 0, 0, 0.31);
+  text-align: center; }
+  .contact-container h2 {
+    font-size: 3em; }
+  .contact-container p {
+    font-size: 1.5em; }
+
+.contacticon {
+  display: block;
+  margin: 2em auto;
+  max-height: 200px; }
+
+/*# sourceMappingURL=style.css.map */
